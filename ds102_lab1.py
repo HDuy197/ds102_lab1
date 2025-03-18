@@ -95,7 +95,8 @@ mae_test_standardized = np.mean(np.abs(y_test_pred_original - y_test))
 
 # In ra kết quả
 print("\nKẾT QUẢ BÀI 2 (Sau Chuẩn Hóa)")
-print("Theta:", theta_standardized)
+print("Theta trước chuẩn hóa:", theta)
+print("Theta sau chuẩn hóa:", theta_standardized)
 print("MSE trên tập train:", mse_train_standardized)
 print("MSE trên tập test:", mse_test_standardized)
 print("MAE trên tập train:", mae_train_standardized)
